@@ -5,7 +5,7 @@ a = 0
 while a < len(my_list):
     number = my_list[a]
     if number < 0:
-        a + 1 # здесь можно вставить break
+        break
     if number > 0:
         numbers_posit.append(number)
     a += 1
